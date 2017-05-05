@@ -23,6 +23,7 @@
       // domain name
       $domain = $_SERVER['SERVER_NAME'];
       $doc_root = $_SERVER['DOCUMENT_ROOT'];
+      $doc_uri = $_SERVER['DOCUMENT_URI'];
 
       // $base_url = preg_replace("!^${doc_root}!", '', $base_dir);
       $base_url = preg_replace("!^${doc_root}!", '', $base_dir);
@@ -36,14 +37,7 @@
       $url = "${protocol}://${domain}${disp_port}/web-fun";
     ?>
 
-    <link rel="stylesheet" href="<?php echo $url; ?>/css/slick.css">
     <link rel="stylesheet" href="<?php echo $url; ?>/css/style.css">
 
-    <meta name="description" content="Time for some web fun">
-    <meta name="author" content="Jabal Torres">
-    <meta name="keywords" content="HTML5, CSS3, SASS, jQuery"> 
-    <meta property="og:title" content="This is my litte happy place">
-    <meta property="og:image" content="link_to_image">
-    <meta property="og:description" content="This is my litte happy place">
   </head>
   <body>

@@ -1,7 +1,10 @@
-<?php include 'includes/head.php';?>
+<?php include '../includes/head.php';?> 
   <div class="container">
-  <?php include 'includes/masthead.php';?>
-  <?php include 'includes/navigation.php';?>
+  
+  <?php 
+    include '../includes/masthead.php';
+    include '../includes/navigation.php';
+  ?>
 
   <section class="js-fun">
     <hgroup>
@@ -12,11 +15,11 @@
   </section>
 
   <div id="wrapper" class="example-container">
-    <img class="slide" src="images/janky-carousel-img/placholder-1.png" alt="Image 1">
-    <img class="slide" src="images/janky-carousel-img/placholder-2.png" alt="Image 2">
-    <img class="slide" src="images/janky-carousel-img/placholder-3.png" alt="Image 3">
-    <img class="slide" src="images/janky-carousel-img/placholder-4.png" alt="Image 4">
-    <img class="slide" src="images/janky-carousel-img/placholder-5.png" alt="Image 5">
+    <img class="slide" src="../images/janky-carousel-img/placholder-1.png" alt="Image 1">
+    <img class="slide" src="../images/janky-carousel-img/placholder-2.png" alt="Image 2">
+    <img class="slide" src="../images/janky-carousel-img/placholder-3.png" alt="Image 3">
+    <img class="slide" src="../images/janky-carousel-img/placholder-4.png" alt="Image 4">
+    <img class="slide" src="../images/janky-carousel-img/placholder-5.png" alt="Image 5">
   </div>
 
   <script>
@@ -96,5 +99,4 @@
     };
     AddBorder.init();
   </script>
-
-<?php include 'includes/feet.php';?>
+<?php include '../includes/feet.php';?>

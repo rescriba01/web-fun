@@ -27,7 +27,7 @@
   </section>
 
   <section id="jt-images">
-     <hgroup>
+    <hgroup>
       <h1>Mustache Playground</h1>
       <h2>Sub headline</h2>
     </hgroup>
@@ -94,4 +94,5 @@
       </div>
     </div>
   </section>
+
 <?php include 'includes/feet.php';?>
