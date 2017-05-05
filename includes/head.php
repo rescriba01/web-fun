@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
-    <title>Web Project</title>
+    <title><?php echo $title ?></title> 
 
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">

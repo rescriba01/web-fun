@@ -1,4 +1,10 @@
-<?php include 'includes/head.php';?>
+<?
+  require_once 'config.php';
+  $title = "Home Page"; // this is for <title>
+  $page_title = "This is the home page"; //this is for breadcrumbs if I want a custom title other than the default
+  $addCSS = ""; //custom CSS for this page only
+  include_once('includes/head.php');
+?>
 	<div class="container">
   <?php 
     include 'includes/masthead.php';

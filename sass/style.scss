@@ -1,5 +1,4 @@
- // Sharethrough Web Designer Test
-// http://capitaljt.github.io/Sharethrough-Test/
+// Sharethrough Web Designer Test
 //
 // Table of Contents
 //
@@ -131,6 +130,9 @@ article{
   }
 }
 
+.tagline{
+  color: black;
+}
 .email-db-list{
   li{
     margin-bottom: 20px;
@@ -266,7 +268,9 @@ article{
   border: $global-border;
 }
 
-
-.tagline{
-  // @extend .outlined;
+.menu{
+  background-color: #eee;
+  li{
+    padding: 10px;
+  }
 }
