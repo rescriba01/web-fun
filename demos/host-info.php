@@ -1,8 +1,10 @@
-<?php 
-  $title = "Host information"; // this is for <title>
-  $custom_css = "host-info"; //custom CSS for this page only
-  include '../includes/head.php';
-?> 
+<?
+  $title = "Host Info file"; // this is for <title>
+  $page_title = "This is the host index file"; //this is for breadcrumbs if I want a custom title other than the default
+  $custom_class = "host-page"; //custom CSS for this page only
+  require_once '../config.php';
+  include_once('../includes/head.php');
+?>
   <div class="container">
   
   <?php 

@@ -16,6 +16,8 @@
 @import "components/buttons";
 @import "layouts/footer";
 @import "pages/mustache-demo";
+@import "pages/demo-page";
+@import "pages/lorem-ipsum-page";
 @import "slick-carousel";
 
 body{
@@ -266,11 +268,4 @@ article{
 .home{
   // background-color: red;
   border: $global-border;
-}
-
-.menu{
-  background-color: #eee;
-  li{
-    padding: 10px;
-  }
 }

@@ -75,9 +75,9 @@ $(document).ready(function () {
     });  
   }
 
-  $('section').each(function(){
-    //$(this).css("border", "solid thick yellow");
-    var closeBtn = $('<span class="close-btn">Close</span>');
-    $(this).prepend(closeBtn);
-  });
+  // $('section').each(function(){
+  //   //$(this).css("border", "solid thick yellow");
+  //   var closeBtn = $('<span class="close-btn">Close This</span>');
+  //   $(this).prepend(closeBtn);
+  // });
 });
