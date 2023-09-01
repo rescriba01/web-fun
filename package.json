@@ -31,6 +31,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "npm-check-updates": "^2.14.2"
+    "npm-check-updates": "^16.13.2"
   }
 }
